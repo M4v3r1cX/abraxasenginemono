@@ -7,6 +7,7 @@ namespace abraxasengine2mono;
 public class Game1 : Game
 {
     // Esta clase es la equivalente de GamePanel.java en la raiz del proyecto
+    // Mejor aprendemos la wea bien: https://docs.monogame.net/articles/tutorials/building_2d_games/04_creating_a_class_library/index.html?tabs=vscode
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
