@@ -6,6 +6,7 @@ namespace abraxasengine2mono;
 
 public class Game1 : Game
 {
+    // Esta clase es la equivalente de GamePanel.java en la raiz del proyecto
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
