@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\M4v3r1cX\\projects\\abraxasengine2mono\\abraxasengine2mono.csproj": {}
+    "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/abraxasengine2mono.csproj": {}
   },
   "projects": {
-    "c:\\Users\\M4v3r1cX\\projects\\abraxasengine2mono\\abraxasengine2mono.csproj": {
+    "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/abraxasengine2mono.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\M4v3r1cX\\projects\\abraxasengine2mono\\abraxasengine2mono.csproj",
+        "projectUniqueName": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/abraxasengine2mono.csproj",
         "projectName": "abraxasengine2mono",
-        "projectPath": "c:\\Users\\M4v3r1cX\\projects\\abraxasengine2mono\\abraxasengine2mono.csproj",
-        "packagesPath": "C:\\Users\\M4v3r1cX\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\M4v3r1cX\\projects\\abraxasengine2mono\\obj\\",
+        "projectPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/abraxasengine2mono.csproj",
+        "packagesPath": "/Users/m4v3r1cx/.nuget/packages/",
+        "outputPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\M4v3r1cX\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/m4v3r1cx/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.311/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

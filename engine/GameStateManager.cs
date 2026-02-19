@@ -15,7 +15,7 @@ public class GameStateManager
     public static readonly int CUTSCENE1 = 1;
     public static readonly int RAYCAST = 2;
 
-    public GameStateManager()
+    /*public GameStateManager()
     {
         stateList = new List<GameState>();
         currentState = MENU;
@@ -40,5 +40,5 @@ public class GameStateManager
     public void Draw()
     {
         stateList[currentState].Draw();
-    }
+    }*/
 }

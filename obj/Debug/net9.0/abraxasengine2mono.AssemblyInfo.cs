@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("abraxasengine2mono")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f1fb4d70c8ca03469e79cdbc0e5c41685cb7e9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a6abd139d53ad32349928bab64bcc0a5329f974")]
 [assembly: System.Reflection.AssemblyProductAttribute("abraxasengine2mono")]
 [assembly: System.Reflection.AssemblyTitleAttribute("abraxasengine2mono")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
