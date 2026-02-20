@@ -130,6 +130,16 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "AbraxasGameLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/AbraxasGameLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AbraxasGameLibrary.dll": {}
+        }
       }
     }
   },
@@ -286,10 +296,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AbraxasGameLibrary/1.0.0": {
+      "type": "project",
+      "path": "AbraxasGameLibrary/AbraxasGameLibrary.csproj",
+      "msbuildProject": "AbraxasGameLibrary/AbraxasGameLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "AbraxasGameLibrary >= 1.0.0",
       "MonoGame.Content.Builder.Task >= 3.8.*",
       "MonoGame.Framework.DesktopGL >= 3.8.*"
     ]
@@ -300,11 +316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/AbraxasEngine2.csproj",
+      "projectUniqueName": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/AbraxasEngine2Mono/AbraxasEngine2.csproj",
       "projectName": "AbraxasEngine2",
-      "projectPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/AbraxasEngine2.csproj",
+      "projectPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/AbraxasEngine2Mono/AbraxasEngine2.csproj",
       "packagesPath": "/Users/m4v3r1cx/.nuget/packages/",
-      "outputPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/obj/",
+      "outputPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/AbraxasEngine2Mono/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/m4v3r1cx/.nuget/NuGet/NuGet.Config"
@@ -318,7 +334,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/AbraxasEngine2Mono/AbraxasGameLibrary/AbraxasGameLibrary.csproj": {
+              "projectPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/AbraxasEngine2Mono/AbraxasGameLibrary/AbraxasGameLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

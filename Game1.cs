@@ -1,21 +1,18 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using AbraxasGameLibrary;
 
 namespace abraxasengine2mono;
 
-public class Game1 : Game
+public class Game1 : Core
 {
     // Esta clase es la equivalente de GamePanel.java en la raiz del proyecto
     // Mejor aprendemos la wea bien: https://docs.monogame.net/articles/tutorials/building_2d_games/04_creating_a_class_library/index.html?tabs=vscode
-    private GraphicsDeviceManager _graphics;
-    private SpriteBatch _spriteBatch;
 
-    public Game1()
+    public Game1() : base("Abraxas Engine II", 1280, 720, false)
     {
-        _graphics = new GraphicsDeviceManager(this);
-        Content.RootDirectory = "Content";
-        IsMouseVisible = true;
+
     }
 
     protected override void Initialize()
@@ -27,9 +24,9 @@ public class Game1 : Game
 
     protected override void LoadContent()
     {
-        _spriteBatch = new SpriteBatch(GraphicsDevice);
-
         // TODO: use this.Content to load your game content here
+
+        base.LoadContent();
     }
 
     protected override void Update(GameTime gameTime)

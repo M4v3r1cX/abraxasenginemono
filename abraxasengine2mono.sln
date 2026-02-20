@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbraxasEngine2", "AbraxasEngine2.csproj", "{3BD88CBA-A6B1-B4D8-050E-CBB5E99D8413}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbraxasGameLibrary", "AbraxasGameLibrary\AbraxasGameLibrary.csproj", "{AD26A02F-14B1-4227-A6E0-45E9928B8393}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{3BD88CBA-A6B1-B4D8-050E-CBB5E99D8413}.Release|x64.Build.0 = Release|Any CPU
 		{3BD88CBA-A6B1-B4D8-050E-CBB5E99D8413}.Release|x86.ActiveCfg = Release|Any CPU
 		{3BD88CBA-A6B1-B4D8-050E-CBB5E99D8413}.Release|x86.Build.0 = Release|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Release|x64.Build.0 = Release|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD26A02F-14B1-4227-A6E0-45E9928B8393}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
