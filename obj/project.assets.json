@@ -300,9 +300,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/abraxasengine2mono.csproj",
-      "projectName": "abraxasengine2mono",
-      "projectPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/abraxasengine2mono.csproj",
+      "projectUniqueName": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/AbraxasEngine2.csproj",
+      "projectName": "AbraxasEngine2",
+      "projectPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/AbraxasEngine2.csproj",
       "packagesPath": "/Users/m4v3r1cx/.nuget/packages/",
       "outputPath": "/Users/m4v3r1cx/Projects/Software/MonoProjects/AbraxasEngine2/abraxasenginemono/obj/",
       "projectStyle": "PackageReference",
